@@ -9,7 +9,7 @@
     display: flex;
     background-color: black;
 }
-.nav__logo{
+.nav__logo__img{
     display:block;
     max-width: 50px;
     max-height: 50px;
@@ -36,7 +36,28 @@
 }
 
 /* section nav */
-
+.section__hero{
+    background-image: url('img/imghero.jpg');
+    background-size: cover;
+    background-position-y: center;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.section__hero__foto{
+    padding-left: 20px;
+    max-width: 50%;
+    max-height: 30%;
+}
+.section__hero h1{
+    padding: 20px;
+    display:flex;
+    align-items: flex-start;
+    color: white;
+    font-size: 60px;
+}
 /* end of section nav */
 
 /* section hero */
