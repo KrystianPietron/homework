@@ -1,14 +1,21 @@
 /* common */
+
 *{
     box-sizing: border-box;
     margin: 0px;
     padding: 0px;
 }
+
 /* end of common */
+
+
 /* section nav */
+
 .nav{
     display: flex;
-    background-color: black;
+    background-color:  rgb(117, 117, 117);
+    position: fixed;
+    width:100%;
 }
 .nav__logo__img{
     display:block;
@@ -31,7 +38,7 @@
     padding: 20px;
 }
 .nav__item:hover {
-    background-color: rgb(117, 117, 117);
+    background-color: rgb(173, 173, 173);
     cursor: pointer;
 }
 .nav__link__sec{
@@ -40,39 +47,32 @@
 
 }
 @media only screen and (max-width: 756px) {
-.nav {
-    display:flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    position: fixed;
-    width: 100%;
+    .nav {
+        display:flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .nav__logo {
+        display: flex;
+        justify-content: center;
+    }
+    .nav__link{
+        flex-direction: column;
+    }
 }
-.nav__logo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end; 
 
-}
-.nav__link{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end; 
-}
-.nav__item {
-    display: flex;
-    align-items: center;
-}
-}
 /* end of section nav */
+
+
 /* section hero */
+
 .section__hero{
     background-image: url('img/imghero.jpg');
     background-size: cover;
     background-position-y: center;
     display: flex;
     flex-direction: column;
+    padding-top:100px;
     padding-bottom: 100px;
 }
 .section__hero h1{
@@ -90,23 +90,20 @@
     font-size: 20px;
 }
 @media only screen and (max-width: 756px){
-.section__hero{
-    display:flex;
-    padding-top:300px;
+    .section__hero{
+        padding-top:300px;
+    }
 }
-.section__hero h1{
-    justify-items: flex-start;
-}
-.section__hero h2{
-    justify-items: flex-start;
-}
-}
+
 /* end of section hero */
+
+
 /* section forme */
+
 .section__forme{
     display: flex;
     padding: 30px;
-    background-color: black;
+    background-color: rgb(117, 117, 117);
 }
 .section__forme__foto{
     padding: 20px;
@@ -125,18 +122,21 @@
     justify-content: flex-start;
 }
 @media only screen and (max-width: 756px){
- .section__forme{    
-    display:flex;
-    justify-content: flex-start;
-    flex-direction: column-reverse;
-} 
-  .section__forme__foto{ 
-    width: 100%;
-    height: 100%;
-} 
+    .section__forme{
+        display:flex;
+        flex-direction: column-reverse;
+    }
+    .section__forme__foto{
+        width: 100%;
+        height: 100%;
+    }
 }
+
 /* end of section forme */
+
+
 /* section technologies */
+
 .section__technologies{
     display: flex;
     justify-content: center;
@@ -151,21 +151,69 @@
     height: 240px;
 }
 @media only screen and (max-width: 756px) {
-.section__technologies{    
+    .section__technologies{
+        display:flex;
+        flex-direction: column;
+    }
+    .section__technologies__img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+/* end of section technologies */
+
+
+/* section links */
+
+.section__links{
     display:flex;
     justify-content: flex-start;
     flex-direction: column;
-} 
-.section__technologies__img{ 
-    width: 100%;
-    height: 100%;
-} 
+    background-color: rgb(117, 117, 117);
 }
-/* end of section technologies */
-/* section links */
+.section__links{
+    align-items: center;
+    color: white;
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.section__links__ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.section__links__ul__item{
+    
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    
+}
+.section__links__ul__item:hover {
+    background-color: rgb(173, 173, 173);
+    cursor: pointer;
+} 
+.section__links__ul__item__link{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;   
+}
+@media only screen and (max-width: 756px) {
+    .section__links {
+        display: flex;
+    }
+    .section__links__ul{
+        flex-direction: column;
+    }
+}
 
 /* end of section links */
+
+
 /* section footer */
+
 .section__footer{
     padding: 20px;
     background-color: black;
