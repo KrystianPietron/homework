@@ -55,6 +55,7 @@
 .section__hero h1{
     padding: 20px;
     display:flex;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     align-items: flex-start;
     color: white;
     font-size: 60px;
