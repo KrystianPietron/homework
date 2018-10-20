@@ -1,0 +1,70 @@
+/* common */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/* end of common */
+/* section nav */
+.nav{
+    display: flex;
+    background-color: black;
+}
+.nav__logo__img{
+    display:block;
+    max-width: 50px;
+    max-height: 50px;
+    margin: 0px;
+    padding: 10px;
+}
+.nav__link{
+    display:flex;
+    justify-content: flex-end;
+}
+.nav__item{
+    display:flex;
+    justify-content: flex-end;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex-grow: 1;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+.nav__item:hover {
+    background-color: rgb(117, 117, 117);
+    cursor: pointer;
+}
+/* end of section nav */
+/* section hero */
+.section__hero{
+    background-image: url('img/imghero.jpg');
+    background-size: cover;
+    background-position-y: center;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+.section__hero__foto{
+    padding-left: 20px;
+    max-width: 50%;
+    max-height: 30%;
+}
+.section__hero h1{
+    padding: 20px;
+    display:flex;
+    align-items: flex-start;
+    color: white;
+    font-size: 60px;
+}
+/* end of section hero */
+
+/* section links */
+
+/* end of section links */
+
+/* section footer */
+
+/* end of section footer */
