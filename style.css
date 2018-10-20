@@ -61,11 +61,28 @@
     font-size: 60px;
 }
 /* end of section hero */
+/* section form */
 
+/* end of section forme */
+/* section technologies */
+
+/* end of section technologies */
 /* section links */
 
 /* end of section links */
-
 /* section footer */
+.section__footer{
+    padding: 20px;
+    background-color: black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.section__footer h1{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    
+}
 
 /* end of section footer */
