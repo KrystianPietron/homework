@@ -5,6 +5,7 @@
     padding: 0px;
 }
 /* end of common */
+/* section nav */
 .nav{
     display: flex;
     background-color: black;
@@ -34,8 +35,8 @@
     background-color: rgb(117, 117, 117);
     cursor: pointer;
 }
-
-/* section nav */
+/* end of section nav */
+/* section hero */
 .section__hero{
     background-image: url('img/imghero.jpg');
     background-size: cover;
@@ -58,10 +59,6 @@
     color: white;
     font-size: 60px;
 }
-/* end of section nav */
-
-/* section hero */
-
 /* end of section hero */
 
 /* section links */
