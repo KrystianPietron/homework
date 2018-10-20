@@ -42,26 +42,6 @@
     cursor: pointer;
 }
 @media only screen and (max-width: 756px) {
-.nav {
-    
-    display:flex;
-    justify-content: flex-start;
-    flex-direction: column;
-    position: fixed;
-    width: 20%;
-    height: 50%;
-}
-.nav__logo {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-end; 
-.nav__link__sec{
-    text-decoration: none;
-    color: white;
-
-}
-@media only screen and (max-width: 756px) {
     .nav {
         display:flex;
         flex-direction: column;
@@ -244,8 +224,5 @@
     
 }
 
-<<<<<<< HEAD
-/* end of section footer ale fajnie */
-=======
-/* end of section footer  fajnie było*/
->>>>>>> master
+/* end of section footer */
+
