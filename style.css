@@ -1,0 +1,52 @@
+/* common */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+/* end of common */
+.nav{
+    display: flex;
+    background-color: black;
+}
+.nav__logo{
+    display:block;
+    max-width: 50px;
+    max-height: 50px;
+    margin: 0px;
+    padding: 10px;
+}
+.nav__link{
+    display:flex;
+    justify-content: flex-end;
+}
+.nav__item{
+    display:flex;
+    justify-content: flex-end;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    flex-grow: 1;
+    list-style: none;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+}
+.nav__item:hover {
+    background-color: rgb(117, 117, 117);
+    cursor: pointer;
+}
+
+/* section nav */
+
+/* end of section nav */
+
+/* section hero */
+
+/* end of section hero */
+
+/* section links */
+
+/* end of section links */
+
+/* section footer */
+
+/* end of section footer */
