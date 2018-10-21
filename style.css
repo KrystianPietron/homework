@@ -12,7 +12,8 @@
 
 .nav{
     display: flex;
-    background-color:  rgb(117, 117, 117);
+    background-image:url('img/img.png');
+    background-position-y: bottom;
     position: fixed;
     width:100%;
 }
@@ -100,7 +101,8 @@
 .section__forme{
     display: flex;
     padding: 30px;
-    background-color: rgb(117, 117, 117);
+    background-image: url('img/img2.png');
+    background-size: 400%;
 }
 .section__forme__foto{
     padding: 20px;
@@ -121,6 +123,7 @@
         display:flex;
         flex-direction: column-reverse;
         padding: 5px;
+        background-size: 600%;
     }
     .section__forme__foto{
         padding: 10px;
@@ -137,7 +140,9 @@
 .section__technologies{
     display: flex;
     justify-content: center;
-    background-color: rgb(117, 117, 117);
+    background-color: gainsboro;
+    background-position-y: center;
+
     padding: 40px;
 }
 .section__technologies__img{
@@ -158,13 +163,13 @@
 
 /* end of section technologies */
 
-
 /* section links */
 
 .section__links{
     display:flex;
     flex-direction: column;
-    background-color: rgb(117, 117, 117);
+    background-image: url('img/img.png');
+    background-position-y: bottom;
     align-items: center;
     color: white;
     font-size: 30px;
