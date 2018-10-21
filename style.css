@@ -163,12 +163,14 @@
     display:flex;
     flex-direction: column;
     background-color: rgb(117, 117, 117);
-}
-.section__links{
     align-items: center;
     color: white;
     font-size: 30px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.section__links h2{
+    text-align: center;
+    padding: 30px;
 }
 .section__links__ul{
     display: flex;
@@ -189,12 +191,14 @@
     color: white;
 }
 @media only screen and (max-width: 756px) {
-    
     .section__links {
         display: flex;
     }
     .section__links__ul{
         flex-direction: column;
+    }
+    .section__links h2{
+        padding: 20px;
     }
 }
 
