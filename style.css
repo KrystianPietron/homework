@@ -120,6 +120,7 @@
     .section__forme{
         display:flex;
         flex-direction: column-reverse;
+        padding: 5px;
     }
     .section__forme__foto{
         padding: 10px;
