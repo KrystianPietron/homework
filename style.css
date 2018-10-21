@@ -124,6 +124,7 @@
         flex-direction: column-reverse;
         padding: 5px;
         background-size: 600%;
+        background-repeat: no-repeat;
     }
     .section__forme__foto{
         padding: 10px;
