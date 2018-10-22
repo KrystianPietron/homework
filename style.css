@@ -221,6 +221,7 @@
         flex-direction: column;
     }
     .section__links h2{
+        flex-direction: column;
         padding: 80px;
     }
 }
