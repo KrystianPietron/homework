@@ -125,8 +125,8 @@
     }
     .section__forme__foto{
         padding: 10px;
-        width: 80%;
-        height: 80%;
+        width: 50%;
+        height: 50%;
     }
 }
 
@@ -203,7 +203,7 @@
         flex-direction: column;
     }
     .section__links h2{
-        padding: 50px;
+        padding: 80px;
     }
 }
 
