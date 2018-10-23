@@ -141,10 +141,9 @@
         display:flex;
         flex-direction: column-reverse;
         align-items: center;
-        padding: 5px;
     }
     .section__forme__foto{
-        max-width: 280px;
+        max-width: 200px;
     }
 }
 
