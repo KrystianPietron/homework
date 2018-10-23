@@ -143,13 +143,8 @@
         align-items: center;
         padding: 5px;
     }
-    .section__forme h2{
-        padding :20px;
-    }
     .section__forme__foto{
         max-width: 280px;
-        padding: 20px;
-
     }
 }
 
