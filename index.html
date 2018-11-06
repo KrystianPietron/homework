@@ -1,79 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="css/style.css"/>
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
 
 
-    <link rel="shortcut icon" href="img/icons/java-script.png"/>
-    
+    <link rel="shortcut icon" href="icons/java-script.png" />
+
     <title>Krystian Pietroń Junior Front-End Developer</title>
-    
+
 </head>
+
 <body>
     <nav id="menu" class="nav">
-            <div class="nav-logo">
-                    <img src="img/js.png" alt="logo" class="nav-logo__img">
-            </div>
-            <ul class="nav-link">
-                <li class="nav-item"> <a class="nav-link__sec" href="#hero">Home</a></li>
-                <li class="nav-item"> <a class="nav-link__sec" href="#forme">About Me</a></li>
-                <li class="nav-item"> <a class="nav-link__sec" href="#technologies">Technologies</a></li>
-                <li class="nav-item"> <a class="nav-link__sec" href="#links">Links</a></li>
-            </ul>
-        </nav>
+        <div class="nav-logo">
+            <img src="icons/js.png" alt="logo" class="nav-logo__img">
+        </div>
+        <ul class="nav-link">
+            <li class="nav-item"> <a class="nav-link__sec" href="#hero">Home</a></li>
+            <li class="nav-item"> <a class="nav-link__sec" href="#forme">About Me</a></li>
+            <li class="nav-item"> <a class="nav-link__sec" href="#technologies">Technologies</a></li>
+            <li class="nav-item"> <a class="nav-link__sec" href="#links">Links</a></li>
+        </ul>
+    </nav>
 
     <section id="hero" class="section-hero">
-        <h1>Krystian Pietroń</h1>
-        <h2>Junior Front-End Developer</h2>
+        <div id='item1' class='section-hero__item1 section-hero__items section-hero__item-carousel'>
+            <h1 class='section-hero__items-texth1'>Krystian Pietroń</h1>
+            <h2 class='section-hero__items-text'>Junior Front-End Developer</h2>
+        </div>
+        <div id='item2' class='section-hero__items section-hero__item2 section-hero__item-carousel'>
+            <a href="#forme" class='section-hero__items-link2'>
+                <h2 class='section-hero__items-text'>Poznaj mnie :D</h2>
+            </a>
+        </div>
+        <div id='item3' class='section-hero__items section-hero__item3 section-hero__item-carousel'>
+            <a href='#technologies' class='section-hero__items-link3'>
+                <h2 class='section-hero__items-text'>Technologie jakie poznałem na kursie<br> w infoShare Academy w Lublinie</h2>
+            </a>
+        </div>
+        <div id='item4' class='section-hero__items section-hero__item4 section-hero__item-carousel'>
+            <a href='#links' class='section-hero__items-link4'>
+                <h2 class='section-hero__items-text'>Odwiedź mnie w social media</h2>
+            </a>
+        </div>
     </section>
 
     <section id="forme" class="section-forme">
         <div class="test">
-            <h2 class="section-forme__item">Strona napisana w ramach HOMEWORK z akademi umiejętności infoShare Academy.<br> Zadanie polegało na napisaniu strony zawierającej: 
-                <br> 1. format single page (bez podstron),
-                <br> 2. favicona
-                <br> 3. minimum 3 sekcje (hero, o mnie, technologię jakie znam)
-                <br> 4. minimum 1 z nich (technologie) powinna być układem kolumn (minimum 3) ułożonych w rzędzie/rzędach na desktopie i pod sobą na mobilce
-                <br> 5. sekcja technologie powinna zawierać minimum logo i opis każdej z nich
-                <br> 6. sekcja o mnie powinna zawierać tekst po lewej stronie a po prawej Wasze zdjęcie na desktopie, na mobilce najpierw zdjęcie a potem tekst
-                <br> 7. menu z linkami do każdej z sekcji - dostosowane również do mobilek
-                <br> 8. do stworzenia responsywności i układów kolumn wykorzystać wyłącznie flexbox.
-                <br> Strona bedzie rozwijana w miarę poznawania nowych technologii.
-            </h2>
-            <div id="foto" >
-                <img src="img/me.jpg" alt="krystianpietron" class="section-forme__foto section-forme__item" >
+            <div class="section-forme__text-item">
+                <h2 class="section-forme__item">Witam na mojej Stronie</h2>
+                <p class="section-forme__item">Nazywam się Krystian Pietroń<br>
+                    Dopiero zaczynam przygodę z HTML, CSS i JS<br>
+                    W miarę zdobywania nowych umijętności<br> będę starł się je również i tu pokazać :D</p>
             </div>
+            <div id="foto">
+                <img src="img/me.jpg" alt="krystianpietron" class="section-forme__foto section-forme__item">
+            </div>
+
         </div>
     </section>
     <section id="technologies" class="section-technologies">
-        <div id="logo" >
+        <div id="logo">
             <img src="img/html.png" alt="logo-html" class="section-technologies__img">
         </div>
-        <div id="css" >
+        <div id="css">
             <img src="img/css.png" alt="logo-css" class="section-technologies__img">
         </div>
         <div id="javas">
             <img src="img/javascript.png" alt="logo-javas" class="section-technologies__img">
         </div>
     </section>
-    
+
     <section id="links" class="section-links">
-    <h2>Social media:</h2>
-    <ul class="section-links__ul">
-        <li class="section-links__ul-item"><a class="section-links__ul-item-link" href="https://www.facebook.com/krystian.pietron"><img class="img-links" src="img/logofacebok.jpg"></a></li>
-        <li class="section-links__ul-item"><a class="section-links__ul-item-link" href="https://www.linkedin.com/in/krystian-pietroń-80784a164"><img class="img-links" src="img/linkedin.png"></a></li>
-        <li class="section-links__ul-item"><a class="section-links__ul-item-link" href="https://twitter.com/krystianpietr"><img class="img-links" src="img/Twitter-Icon.png"></a></li>
-        <li class="section-links__ul-item"><a class="section-links__ul-item-link" href="https://github.com/KrystianPietron"><img class="img-links" src="img/github.png"></a></li>
-    </ul>
+        <h2>Social media:</h2>
+        <ul class="section-links__ul">
+            <li class="section-links__ul-item"><a class="section-links__ul-item-link" href="https://www.facebook.com/krystian.pietron"><img
+                        class="img-links" src="icons/facebook.png"></a></li>
+            <li class="section-links__ul-item"><a class="section-links__ul-item-link" href="https://www.linkedin.com/in/krystian-pietron"><img
+                        class="img-links" src="icons/linkedin.png"></a></li>
+            <li class="section-links__ul-item"><a class="section-links__ul-item-link" href="https://twitter.com/krystianpietr"><img
+                        class="img-links" src="icons/twitter.png"></a></li>
+            <li class="section-links__ul-item"><a class="section-links__ul-item-link" href="https://github.com/KrystianPietron"><img
+                        class="img-links" src="icons/github.png"></a></li>
+        </ul>
     </section>
 
     <section id="footer" class="section-footer">
-        <h1>Copiryght©2018 Krystian Pietroń Junior Front-End Developer®</h1>
-        <div id="time" class ="footer-time"></div>
+        <h2>Copiryght©2018 Krystian Pietroń Junior Front-End Developer®</h2>
+        <div class="footer-time">
+            <div id="date" class="footer-time__date"></div>
+        </div>
     </section>
-    <script src="js/time.js"></script
+    <!-- <script src="js/date.js"></script> -->
+    <script src="js/carousel.js"></script>
+
 </body>
+
 </html>
